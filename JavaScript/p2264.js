@@ -14,7 +14,7 @@ var largestGoodInteger = function(num) {
                 return "999";
             }
             else if (current > max) {
-                res = num.slice(i, i+3);
+                res = `${current}${current}${current}`;
                 max = current;
             }
         }
